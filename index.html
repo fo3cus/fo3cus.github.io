@@ -7,17 +7,26 @@
     <link rel="stylesheet" href="css/bootstrap.cosmo.css" />
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"
+    />
 
     <title>My Portfolio</title>
   </head>
 
   <body class="d-flex flex-column h-100 fs-4">
     <div class="px-4 py-5 my-5 text-center">
-      <img class="d-block mx-auto mb-4" src="images/avatar.png" alt="" width="172" height="172" />
+      <img
+        class="d-block mx-auto mb-4"
+        src="images/avatar.png"
+        alt=""
+        width="172"
+        height="172"
+      />
       <h1 class="display-5 fw-bold">I'm James Rollinson</h1>
       <div class="col-lg-6 mx-auto">
-        <p class="lead fs-3 text-primary">Coder | Tech Enthusiast</p>
+        <p class="lead fs-3">Coder | Tech Enthusiast</p>
       </div>
     </div>
 
@@ -25,11 +34,14 @@
       <h2 class="pb-2 border-bottom border-dark border-1">About Me</h2>
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
         <div class="col d-flex align-items-start">
-          <div class="bi-file-person fs-1 text-primary flex-shrink-0 me-3"></div>
+          <div
+            class="bi-file-person fs-1 text-primary flex-shrink-0 me-3"
+          ></div>
           <div>
             <p>
-              I have just completed a NZ diploma in software development at Northtec and I'm continuing to expand my
-              experience in my spare time.
+              I have just completed a NZ diploma in software development at
+              Northtec and I'm continuing to expand my experience in my spare
+              time.
             </p>
             These are just a few of the tech related fields I'm interested in:
             <ul>
@@ -40,7 +52,6 @@
             </ul>
           </div>
         </div>
-
         <div class="col d-flex align-items-start">
           <div class="bi-code-slash fs-1 text-primary flex-shrink-0 me-3"></div>
           <div>
@@ -113,38 +124,399 @@
       </div>
     </div>
 
-    <div class="container px-4 py-5" id="work">
-      <h2 class="pb-2 border-bottom border-dark border-1">My Work</h2>
+    <div
+      type="button"
+      class="btn bi-arrow-up-square fs-1 text-primary"
+      id="btn-back-to-top"
+    ></div>
+
+    <!-- * Section Start * -->
+    <div class="container px-4 py-5" id="toc">
+      <h2 class="pb-2 border-bottom border-dark border-1">Table of Contents</h2>
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
         <div class="col d-flex align-items-start">
-          <div class="bi-clock fs-1 text-primary flex-shrink-0 me-3"></div>
+          <div class="bi-list fs-1 text-primary flex-shrink-0 me-3"></div>
           <div>
-            <div class="modal fade" id="modal1" tabindex="-1">
+            <ol>
+              <li>
+                <a href="#basic">Basic Projects</a>
+                <!-- <ol>
+                  <li><a href="#INSERTID">BASIC</a></li>
+                  <li><a href="#INSERTID">BASIC</a></li>
+                  <li><a href="#INSERTID">BASIC</a></li>
+                  <li><a href="#INSERTID">BASIC</a></li>
+                </ol> -->
+              </li>
+              <li>
+                <a href="#intermediate">Intermediate Projects</a>
+                <ol>
+                  <li><a href="#countdown_timer">Countdown Timer</a></li>
+                  <li>
+                    <a href="#covid_qr_generator">NZ COVID QR Sign Generator</a>
+                  </li>
+                  <li><a href="#INSERTID">INTERMEDIATE</a></li>
+                </ol>
+              </li>
+              <li>
+                <a href="#capstone">Capstone Projects</a>
+                <!-- <ol>
+                  <li><a href="#invome">Invome: Personal Home Inventory</a></li>
+                  <li><a href="#INSERTID">CAPSTONE</a></li>
+                </ol> -->
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- * Section Start * -->
+    <div class="container px-4 py-5" id="basic">
+      <h2 class="pb-2 border-bottom border-dark border-1">Level 1: Basic</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+        <!-- * Project Start * -->
+        <!-- <div class="col d-flex align-items-start">
+          <div class="bi-archive fs-1 text-primary flex-shrink-0 me-3"></div>
+          <div>
+            <div class="modal fade" id="modal-basic-1" tabindex="-1">
               <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                   <div class="modal-body p-0 m-0">
-                    <img src="images/fulls/01.png" class="img-fluid" alt="work image" />
+                    <img />
                   </div>
                 </div>
               </div>
             </div>
-            <button class="btn p-0 m-0" data-bs-toggle="modal" data-bs-target="#modal1">
-              <img src="images/thumbs/01.png" class="img-thumbnail mb-3" alt="work image" />
+            <button
+              class="btn p-0 m-0"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-basic-1"
+              id="INSERTID"
+            >
+              <figure class="figure">
+                <img
+                  data-src="holder.js/400x300"
+                  class="figure-img img-fluid rounded"
+                  alt="400x300"
+                  style="width: 400px; height: 300px"
+                  src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22400%22%20height%3D%22300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20300%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17e5b751f09%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A20pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17e5b751f09%22%3E%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22148.83333206176758%22%20y%3D%22158.25%22%3E400x300%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                  data-holder-rendered="true"
+                />
+              </figure>
             </button>
-            <h4><a href="https://github.com/fo3cus/countdown_timer" class="text-dark">Countdown Timer</a></h4>
+            <h4>
+              <a href="#" class="text-dark">something medium</a>
+            </h4>
+            <p class="text-decoration-line-through">
+              This is a thing created in something using library. It will do
+              stuff.
+            </p>
+          </div>
+        </div> -->
+        <!-- * Project Start * -->
+        <!-- <div class="col d-flex align-items-start">
+          <div class="bi-archive fs-1 text-primary flex-shrink-0 me-3"></div>
+          <div>
+            <div class="modal fade" id="modal-basic-2" tabindex="-1">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-body p-0 m-0">
+                    <img />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="btn p-0 m-0"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-basic-2"
+              id="INSERTID"
+            >
+              <figure class="figure">
+                <img
+                  data-src="holder.js/400x300"
+                  class="figure-img img-fluid rounded"
+                  alt="400x300"
+                  style="width: 400px; height: 300px"
+                  src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22400%22%20height%3D%22300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20300%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17e5b751f09%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A20pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17e5b751f09%22%3E%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22148.83333206176758%22%20y%3D%22158.25%22%3E400x300%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                  data-holder-rendered="true"
+                />
+              </figure>
+            </button>
+            <h4>
+              <a href="#" class="text-dark">something medium</a>
+            </h4>
+            <p class="text-decoration-line-through">
+              This is a thing created in something using library. It will do
+              stuff.
+            </p>
+          </div>
+        </div> -->
+        <!-- * Project Start * -->
+        <!-- <div class="col d-flex align-items-start">
+          <div class="bi-archive fs-1 text-primary flex-shrink-0 me-3"></div>
+          <div>
+            <div class="modal fade" id="modal-basic-3" tabindex="-1">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-body p-0 m-0">
+                    <img />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="btn p-0 m-0"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-basic-3"
+              id="INSERTID"
+            >
+              <figure class="figure">
+                <img
+                  data-src="holder.js/400x300"
+                  class="figure-img img-fluid rounded"
+                  alt="400x300"
+                  style="width: 400px; height: 300px"
+                  src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22400%22%20height%3D%22300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20300%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17e5b751f09%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A20pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17e5b751f09%22%3E%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22148.83333206176758%22%20y%3D%22158.25%22%3E400x300%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                  data-holder-rendered="true"
+                />
+              </figure>
+            </button>
+            <h4>
+              <a href="#" class="text-dark">something medium</a>
+            </h4>
+            <p class="text-decoration-line-through">
+              This is a thing created in something using library. It will do
+              stuff.
+            </p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- * Section Start * -->
+    <div class="container px-4 py-5" id="intermediate">
+      <h2 class="pb-2 border-bottom border-dark border-1">
+        Level 2: Intermediate
+      </h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+        <!-- * Project Start * -->
+        <div class="col d-flex align-items-start">
+          <div class="bi-clock fs-1 text-primary flex-shrink-0 me-3"></div>
+          <div>
+            <div class="modal fade" id="modal-intermediate-1" tabindex="-1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body p-0 m-0">
+                    <img
+                      src="images/fulls/01.png"
+                      class="img-fluid"
+                      alt="application image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="btn p-0 m-0"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-intermediate-1"
+              id="countdown_timer"
+            >
+              <img
+                src="images/thumbs/01.png"
+                class="img-thumbnail mb-3"
+                alt="application image"
+              />
+            </button>
+            <h4>
+              <a
+                href="https://github.com/fo3cus/countdown_timer"
+                class="text-dark"
+                >Countdown Timer</a
+              >
+            </h4>
             <p>
-              This is a countdown timer created in Python using Tkinter. It will run full screen on execution and
-              display large numbers on a black background.
+              This is a countdown timer created in Python using Tkinter. It will
+              run full screen on execution and display large numbers on a black
+              background.
             </p>
           </div>
         </div>
-
+        <!-- * Project Start * -->
         <div class="col d-flex align-items-start">
-          <div class="bi-cone-striped fs-1 text-warning flex-shrink-0 me-3"></div>
-          <div class="mt-2">
-            <p>More to come...</p>
+          <div
+            class="bi-qr-code-scan fs-1 text-primary flex-shrink-0 me-3"
+          ></div>
+          <div>
+            <div class="modal fade" id="modal-intermediate-2" tabindex="-1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-body p-0 m-0">
+                    <img
+                      src="https://raw.githubusercontent.com/fo3cus/covid_qr_generator/bbcb022ca1e901d97253e1479f9e7f253557350c/assets/screenshot.png"
+                      class="img-fluid"
+                      alt="application image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="btn p-0 m-0"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-intermediate-2"
+              id="covid_qr_generator"
+            >
+              <figure class="figure">
+                <img
+                  class="figure-img img-fluid rounded"
+                  style="height: 208px"
+                  src="https://raw.githubusercontent.com/fo3cus/covid_qr_generator/bbcb022ca1e901d97253e1479f9e7f253557350c/assets/screenshot.png"
+                  alt="application image"
+                />
+              </figure>
+            </button>
+            <h4>
+              <a
+                href="https://github.com/fo3cus/covid_qr_generator"
+                class="text-dark"
+                >NZ COVID QR Sign Generator</a
+              >
+            </h4>
+            <p class="text-decoration-none">
+              This application will generate a QR code sign based on the design
+              used in NZ, which allows use of the NZ COVID Tracer app to
+              manually record our stops at different locations. This facilitates
+              contact tracing when locations of interest become known in your
+              area.
+            </p>
           </div>
         </div>
+        <!-- * Project Start * -->
+        <!-- <div class="col d-flex align-items-start">
+          <div class="bi-archive fs-1 text-primary flex-shrink-0 me-3"></div>
+          <div>
+            <div class="modal fade" id="modal-intermediate-3" tabindex="-1">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-body p-0 m-0">
+                    <img />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="btn p-0 m-0"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-intermediate-3"
+              id="INSERTID"
+            >
+              <figure class="figure">
+                <img
+                  data-src="holder.js/400x300"
+                  class="figure-img img-fluid rounded"
+                  alt="400x300"
+                  style="width: 400px; height: 300px"
+                  src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22400%22%20height%3D%22300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20300%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17e5b751f09%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A20pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17e5b751f09%22%3E%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22148.83333206176758%22%20y%3D%22158.25%22%3E400x300%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                  data-holder-rendered="true"
+                />
+              </figure>
+            </button>
+            <h4>
+              <a href="#" class="text-dark">something medium</a>
+            </h4>
+            <p class="text-decoration-line-through">
+              This is a thing created in something using library. It will do
+              stuff.
+            </p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- * Section Start * -->
+    <div class="container px-4 py-5" id="capstone">
+      <h2 class="pb-2 border-bottom border-dark border-1">Level 3: Capstone</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+        <!-- * Project Start * -->
+        <!-- <div class="col d-flex align-items-start">
+          <div class="bi-archive fs-1 text-primary flex-shrink-0 me-3"></div>
+          <div>
+            <div class="modal fade" id="modal-capstone-1" tabindex="-1">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-body p-0 m-0">
+                    <img />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="btn p-0 m-0"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-capstone-1"
+              id="invome"
+            >
+              <figure class="figure">
+                <img
+                  data-src="holder.js/400x300"
+                  class="figure-img img-fluid rounded"
+                  alt="400x300"
+                  style="width: 400px; height: 300px"
+                  src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22400%22%20height%3D%22300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20300%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17e5b751f09%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A20pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17e5b751f09%22%3E%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22148.83333206176758%22%20y%3D%22158.25%22%3E400x300%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                  data-holder-rendered="true"
+                />
+              </figure>
+            </button>
+            <h4>
+              <a href="#" class="text-dark">Invome: Personal Home Inventory</a>
+            </h4>
+            <p class="text-decoration-line-through">
+              This is a thing created in something using library. It will do
+              stuff.
+            </p>
+          </div>
+        </div> -->
+        <!-- * Project Start * -->
+        <!-- <div class="col d-flex align-items-start">
+          <div class="bi-archive fs-1 text-primary flex-shrink-0 me-3"></div>
+          <div>
+            <div class="modal fade" id="modal-capstone-2" tabindex="-1">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-body p-0 m-0">
+                    <img />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="btn p-0 m-0"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-capstone-2"
+              id="INSERTID"
+            >
+              <figure class="figure">
+                <img
+                  data-src="holder.js/400x300"
+                  class="figure-img img-fluid rounded"
+                  alt="400x300"
+                  style="width: 400px; height: 300px"
+                  src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22400%22%20height%3D%22300%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20300%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17e5b751f09%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A20pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17e5b751f09%22%3E%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22148.83333206176758%22%20y%3D%22158.25%22%3E400x300%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                  data-holder-rendered="true"
+                />
+              </figure>
+            </button>
+            <h4>
+              <a href="#" class="text-dark">something medium</a>
+            </h4>
+            <p class="text-decoration-line-through">
+              This is a thing created in something using library. It will do
+              stuff.
+            </p>
+          </div>
+        </div> -->
       </div>
     </div>
 
